@@ -1,0 +1,18 @@
+{
+  "name": "weathers-app",
+  "version": "1.0.0",
+  "description": "a weathers app",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "install": "^0.13.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "poliman",
+  "license": "ISC"
+}

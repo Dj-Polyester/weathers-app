@@ -1,0 +1,32 @@
+// @font-face {
+//   font-family: Roboto;
+//   src: url("/assets/fonts/Roboto/Roboto-Regular.ttf");
+// }
+// @font-face {
+//   font-family: Roboto;
+//   src: url("/assets/fonts/Roboto/Roboto-Bold.ttf");
+//   font-weight: bold;
+// }
+
+//font
+$def-font: -apple-system, BlinkMacSystemFont, Roboto, Ubuntu, "Segoe UI",
+  Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+//appearance
+$pri-color: #0095f6;
+$pri-color-semi-bold: #0065a8;
+$pri-color-bold: #024069;
+$back-color: #f9f9f9;
+$front-color: #f3f3f3;
+$pri-border: #cccccc;
+///text/button
+$light-txt-color: #7e7777;
+$norm-txt-color: #363636;
+$butt-txt: #fff;
+$butt-color: #1a96da;
+$light-butt-color: #00b7f7;
+///input
+$inp-cursor: #24292e;
+$inp-back: #fff;
+///nav bar
+$pri-nav: #818181;
+$sec-nav: #111;
