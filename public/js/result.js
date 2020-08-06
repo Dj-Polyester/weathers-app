@@ -16,7 +16,7 @@ window.onload = async function () {
     body: JSON.stringify(addrjson),
   };
 
-  const res = await fetch("http://localhost:3000/weather", options);
+  const res = await fetch("/weather", options);
   const result = await res.json();
 
   console.log(result);

@@ -2,7 +2,9 @@ const express = require("express");
 const path = require("path");
 const request = require("request");
 const forecast = require("./forecast");
+
 const app = express();
+const port = process.env.PORT || 3000;
 
 app.set("view engine", "hbs");
 app.set("views", path.join(__dirname, "/../views"));
@@ -40,6 +42,6 @@ app.get("*", (req, res) => {
     title: "404 Page Not Found",
   });
 });
-app.listen(3000, () => {
-  console.log("Server up");
+app.listen(port, () => {
+  console.log(`Server up on ${port}`);
 });
